@@ -5,8 +5,8 @@
 
 This activity is to turn on a LED indicating that a heater is on. This done by using two switches in which one switch is used to turn on heater and another for indicating someone is sitting on the seat. LED is turned on only if both switches are closed.
 
-https://github.com/Rahul7259/Activity1/blob/212e5ee0ed2b4be18ce2750bb388cb012a018926/simulation/LED_ON.png
+![alt text](https://github.com/Rahul7259/Activity1/blob/212e5ee0ed2b4be18ce2750bb388cb012a018926/simulation/LED_ON.png)
 
-https://github.com/Rahul7259/Activity1/blob/212e5ee0ed2b4be18ce2750bb388cb012a018926/simulation/SW1_ON.png
+![alt text](https://github.com/Rahul7259/Activity1/blob/212e5ee0ed2b4be18ce2750bb388cb012a018926/simulation/SW1_ON.png)
 
-https://github.com/Rahul7259/Activity1/blob/212e5ee0ed2b4be18ce2750bb388cb012a018926/simulation/SW2_ON.png
+![alt text](https://github.com/Rahul7259/Activity1/blob/212e5ee0ed2b4be18ce2750bb388cb012a018926/simulation/SW2_ON.png)
