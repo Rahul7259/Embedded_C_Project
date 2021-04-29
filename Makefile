@@ -1,10 +1,13 @@
-PROJ_NAME = Blink
+PROJ_NAME = Embedded_C
 
 BUILD_DIR = Build
 
 # All Source code files
 SRC = main.c\
-src/fuse.c
+src/Activity1.c\
+src/Activity2.c\
+src/Activity3.c\
+src/Activity4.c
 
 # All header file paths
 INC = -I inc
@@ -32,19 +35,12 @@ endif
 .PHONY:all analysis clean doc
 
 all:$(BUILD_DIR)
-# Compile the code and generate the ELF file
 	$(CC) -g -Wall -Os -mmcu=atmega328  $(INC) $(SRC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).elf)
-# To Create Hex file for SimullIDE
-hex: $(BUILD_DIR)
-
-	objcopy -O ihex $(BUILD_DIR)/$(PROJ_NAME).elf output.hex
 
 $(BUILD_DIR):
-# Create directory to store the built files
 	mkdir $(BUILD_DIR)
 
 analysis: $(SRC)
-# Analyse the code using Cppcheck command line utility
 	cppcheck --enable=all $^
 
 doc:
