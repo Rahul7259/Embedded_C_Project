@@ -10,3 +10,5 @@ This project is about a seat heating system that is designed in such a way that 
 ![alt text](https://github.com/Rahul7259/Activity1/blob/212e5ee0ed2b4be18ce2750bb388cb012a018926/simulation/SW1_ON.png)
 
 ![alt text](https://github.com/Rahul7259/Activity1/blob/212e5ee0ed2b4be18ce2750bb388cb012a018926/simulation/SW2_ON.png)
+
+## Activity3
